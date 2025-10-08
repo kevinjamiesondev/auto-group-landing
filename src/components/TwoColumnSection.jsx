@@ -1,8 +1,11 @@
 // src/components/TwoColumnSection.jsx
 export default function TwoColumnSection() {
   const sections = [
-    { title: "Service Department", img: "/assets/service.webp" },
-    { title: "Vehicles Under 20k", img: "/assets/vehicles-under.webp" },
+    { title: "Service Department", img: "public/images/service.webp" },
+    {
+      title: "Vehicles Under 20k",
+      img: "public/images/vehicles-under.webp",
+    },
   ];
 
   return (

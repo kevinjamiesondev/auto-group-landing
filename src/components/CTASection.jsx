@@ -1,9 +1,9 @@
 // src/components/CTASection.jsx
 export default function CTASection() {
   const cards = [
-    { title: "Finance", img: "/assets/finance.webp" },
-    { title: "Trade", img: "/assets/trade.webp" },
-    { title: "Specials", img: "/assets/specials.webp" },
+    { title: "Finance", img: "public/images/finance.webp" },
+    { title: "Trade", img: "public/images/trade.webp" },
+    { title: "Specials", img: "public/images/specials.webp" },
   ];
 
   return (
